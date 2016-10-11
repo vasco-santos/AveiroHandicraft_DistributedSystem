@@ -1,0 +1,2686 @@
+
+               Aveiro Handicraft SARL - Description of the internal state
+
+ENTREPRE  CUST_0  CUST_1 CUST_2   CRAFT_0 CRAFT_1 CRAFT_2          SHOP                 WORKSHOP                V    
+  Stat   Stat BP Stat BP Stat BP  Stat PP Stat PP Stat PP Stat NCI NPI PCR PMR  APMI NPI NSPM TAPM TNP  0  1  2  3  4  5  6 
+
+   OTS    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0   0   0   0   0   0   0   0
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   1   0   0   0   0   0   0
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0   0   1   0
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0   1   1   1
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0   1   2   1
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0   3   3   2
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0   3   3   3
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0   4   3   3
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0   5   5   5
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0   5   5   5
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0   5   6   5
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0   6   6   7
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0   6   7   8
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0   6   7   9
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0   7   8  10
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0   7   9  10
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0   8   9  11
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0   9  10  11
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  10  11  12
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  11  11  12
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  12  12  13
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  13  12  14
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  13  12  15
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  15  12  17
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  15  13  17
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  16  13  17
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  16  15  18
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  17  15  19
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  17  15  19
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  17  17  21
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  18  17  21
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  18  18  23
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  18  18  25
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  19  18  25
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  19  19  26
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  20  19  27
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  21  19  27
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  22  21  28
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  23  21  29
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  23  22  29
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  24  23  30
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  24  24  31
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  25  24  31
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  25  25  32
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  26  25  33
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  27  26  34
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  27  27  34
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  29  27  34
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  29  28  35
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  30  28  37
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  31  28  37
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  32  29  39
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  32  29  39
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  32  30  41
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  33  30  42
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  34  31  42
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  35  31  42
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  35  32  43
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  36  33  44
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  36  35  44
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  37  35  44
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  39  36  44
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  39  36  45
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  39  37  45
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  40  39  46
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  41  39  47
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  41  40  47
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  42  41  49
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  43  41  49
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  43  42  51
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  43  42  51
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  44  42  53
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  45  42  53
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  47  42  53
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  48  43  54
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  48  45  54
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  48  47  54
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  48  47  55
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  49  48  56
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  49  48  57
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  51  48  57
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  51  49  58
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  52  49  59
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  53  50  59
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  54  51  60
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  54  53  60
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  55  53  60
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  56  54  61
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  57  54  61
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  57  55  62
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  57  55  63
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  59  57  63
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  59  57  63
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  60  59  63
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  61  60  63
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  63  60  65
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  63  60  65
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  65  60  65
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  66  61  65
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  66  63  66
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  66  65  66
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  67  66  66
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  68  66  67
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  69  66  67
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  70  67  68
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  71  67  69
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  71  68  69
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  72  69  70
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  72  70  71
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  73  71  71
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  73  72  72
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  75  72  72
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  77  72  72
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  77  73  72
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  78  73  73
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  79  74  74
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  79  75  75
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  80  75  75
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  81  76  77
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  81  77  77
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  81  77  78
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  83  78  79
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  84  78  79
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  85  78  80
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  86  79  81
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  87  79  81
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  87  80  81
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  88  81  82
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  89  81  83
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  89  82  83
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  90  83  84
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  91  84  84
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  93  84  84
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  94  84  85
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  95  85  85
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  95  85  86
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  95  85  87
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  96  87  88
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  96  87  89
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  96  89  90
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  97  90  90
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  97  91  90
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  99  91  90
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  99  91  91
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  101  91  92
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  101  91  93
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  102  91  95
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  103  92  96
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  103  93  96
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  105  94  96
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  105  95  97
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  105  95  97
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  107  96  99
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  107  96  99
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  108  96  101
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  109  96  102
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  111  96  102
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  111  97  102
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  113  98  102
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  113  99  102
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  114  100  103
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  114  101  103
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  114  102  105
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  114  102  107
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  114  103  108
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  115  103  108
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  116  105  108
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  117  105  109
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  117  106  109
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  119  107  109
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  119  108  110
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  120  108  111
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  120  109  112
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  120  109  113
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  120  111  114
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  120  113  114
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  121  114  114
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  121  115  114
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  122  116  115
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  123  116  115
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  125  116  117
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  125  117  117
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  125  117  118
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  125  119  118
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  126  120  119
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  126  121  120
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  126  123  120
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  126  123  121
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  126  125  122
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  126  125  123
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  127  125  123
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  128  125  125
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  129  125  125
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  131  126  126
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  131  127  126
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  131  129  126
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  132  131  126
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  132  132  127
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  132  133  127
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  132  134  129
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  133  135  129
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  133  135  130
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  135  136  131
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  135  137  132
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  135  137  132
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  135  138  133
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  137  138  134
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  137  138  135
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  138  139  136
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  138  139  137
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  139  141  138
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  139  141  138
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  140  143  138
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  141  143  138
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  143  144  138
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  144  145  138
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  144  146  139
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  144  147  139
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  144  148  141
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  144  149  141
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  144  150  143
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  145  150  144
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  145  151  144
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  147  152  144
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  147  153  144
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  149  154  144
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  150  155  144
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  151  156  144
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  153  156  144
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  153  156  145
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  155  156  145
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  156  156  147
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  157  156  147
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  157  157  148
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  158  158  149
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  159  158  149
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  160  159  150
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  161  160  150
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  161  161  150
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  162  162  151
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  163  162  153
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  163  162  153
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  164  162  155
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  165  162  155
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  166  163  156
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  167  163  156
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  168  164  157
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  168  165  158
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  168  165  159
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  168  167  159
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  169  168  161
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  169  168  161
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  171  168  162
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  171  169  162
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  173  170  162
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  174  171  162
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  174  173  162
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  174  174  163
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  174  174  165
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  175  174  166
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  175  174  167
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  177  174  168
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  177  175  169
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  178  175  169
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  179  176  171
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  179  176  171
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  180  177  173
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  180  177  173
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  180  179  174
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  181  181  174
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  181  181  174
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  181  182  175
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  182  183  176
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  183  185  176
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  183  185  177
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  183  186  177
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  185  186  179
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  185  186  179
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  186  187  179
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  186  189  180
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  186  191  180
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  187  192  180
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  189  192  180
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  190  192  181
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  191  192  182
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  191  193  182
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  192  194  183
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  193  194  183
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  195  194  183
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  196  195  184
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  197  195  185
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  197  196  185
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  198  197  186
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  198  199  186
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  198  201  186
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  199  202  186
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  201  203  187
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  201  203  187
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  201  204  189
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  201  204  189
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  203  204  189
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  204  205  191
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  204  205  191
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  204  207  192
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  204  209  192
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  205  210  192
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  207  210  193
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  207  210  194
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  207  211  194
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  209  212  195
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  209  213  195
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  209  213  196
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  210  215  197
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  210  215  197
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  210  216  199
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  210  216  201
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  211  216  202
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  211  217  203
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  212  217  203
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  212  219  204
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  213  219  204
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  214  221  204
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  215  222  204
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  216  222  205
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  217  222  205
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  217  223  206
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  218  225  207
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  219  225  207
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  219  225  208
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  221  225  208
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  222  226  209
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  222  227  210
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  223  228  210
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  223  228  211
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  224  229  211
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  225  231  212
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  226  231  213
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  227  231  213
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  227  232  214
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  228  233  215
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  228  233  215
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  229  234  216
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  229  235  216
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  230  235  217
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  231  236  217
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  231  237  219
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  232  237  219
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  233  238  220
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  233  239  221
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  234  239  222
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  234  240  223
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  234  240  225
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  234  240  227
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  235  241  227
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  235  241  228
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  236  243  228
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  237  243  228
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  237  245  228
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  239  246  229
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  239  247  229
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  240  247  231
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  240  247  231
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  240  248  233
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  241  248  234
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  242  249  234
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  242  250  235
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  243  251  237
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  243  251  239
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  243  251  240
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  243  252  240
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  245  252  240
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  245  252  241
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  246  253  241
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  246  254  243
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  246  255  243
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  246  256  245
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  246  257  245
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  247  258  246
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  249  258  246
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  251  258  246
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  251  258  247
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  252  258  249
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  253  258  249
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  253  259  250
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  254  259  251
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  255  260  252
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  256  261  253
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  256  261  253
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  257  263  253
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  258  263  254
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  258  264  255
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  259  265  257
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  259  265  257
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  259  266  257
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  259  267  258
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  261  268  258
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  261  269  258
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  263  269  258
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  264  271  258
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  264  273  258
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  264  273  259
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  264  275  259
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  264  276  261
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  265  276  262
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  265  276  263
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  267  276  264
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  269  276  264
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  270  277  264
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  271  277  265
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  271  278  265
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  272  278  267
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  272  279  268
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  273  279  269
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  273  280  270
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  274  281  271
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  275  282  271
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  275  282  271
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  276  282  273
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  276  282  275
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  276  283  276
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  276  285  276
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  277  285  276
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  277  286  277
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  279  287  278
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  279  288  279
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  279  288  280
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  279  289  280
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  280  289  281
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  281  290  282
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  282  291  282
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  282  293  282
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  283  295  283
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  283  296  283
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  283  296  283
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  284  297  285
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  284  297  285
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  284  299  286
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  285  300  287
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  285  300  288
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  286  301  288
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  287  302  289
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  287  303  289
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  288  303  291
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  288  303  291
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  288  305  291
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  288  306  293
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  288  307  294
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  288  308  295
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  289  309  295
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  289  309  296
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  290  311  297
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  291  312  297
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  292  312  297
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  293  312  297
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  294  313  298
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  294  314  299
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  294  315  300
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  294  316  301
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  295  317  301
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  295  318  302
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  296  318  303
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  297  318  304
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  298  318  305
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  299  319  306
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  300  319  306
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  301  320  307
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  301  320  307
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  302  321  308
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  303  321  308
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  303  323  308
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  304  323  309
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  305  324  310
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  305  324  311
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  306  325  312
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  306  327  312
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  307  329  312
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  307  329  312
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  308  330  313
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  309  330  313
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  309  330  315
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  311  330  315
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  311  331  316
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  312  332  317
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  312  333  318
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  313  335  318
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  313  336  319
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  313  337  319
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  314  337  321
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  314  337  323
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  314  337  324
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  314  338  325
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  314  339  326
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  315  340  327
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  315  340  327
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  315  341  328
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  316  342  329
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  317  343  330
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  317  343  330
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  318  344  331
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  319  345  332
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  319  345  332
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  319  346  333
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  320  347  334
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  321  348  334
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  322  348  335
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  323  348  336
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  324  349  336
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  325  350  337
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  325  351  337
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  326  351  337
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  327  352  338
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  327  352  339
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  329  352  340
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  330  353  341
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  330  353  341
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  330  354  343
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  331  354  343
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  332  355  345
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  333  355  345
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  333  355  345
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  334  356  347
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  335  357  348
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  335  357  348
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  336  359  349
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  336  359  349
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  336  360  351
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  336  360  353
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  337  360  354
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  338  361  354
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  339  361  354
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  340  363  354
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  341  363  354
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  342  365  354
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  342  366  355
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  343  366  356
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  343  367  356
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  344  369  357
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  344  369  357
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  345  371  358
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  345  371  358
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  346  372  359
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  347  372  359
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  348  372  361
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  349  372  361
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  349  373  362
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  350  374  363
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  351  374  364
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  351  375  365
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  352  375  365
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  353  377  366
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  354  377  366
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  354  378  367
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  354  379  367
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  354  381  369
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  354  381  369
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  354  381  371
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  355  383  372
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  355  383  372
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  357  384  372
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  359  384  373
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  360  385  373
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  361  385  374
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  361  385  375
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  362  386  375
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  363  386  375
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  364  387  377
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  365  387  377
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  366  388  377
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  366  389  378
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  367  390  378
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  368  390  379
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  369  391  380
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  369  391  381
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  370  392  381
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  370  393  381
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  371  393  382
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  372  394  383
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  372  395  384
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  373  397  385
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  373  397  385
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  374  397  385
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  374  399  386
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  375  401  387
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  375  401  387
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  375  401  388
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  376  402  389
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  377  402  390
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  378  403  391
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  378  404  391
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  378  405  391
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  379  406  392
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  379  406  393
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  380  407  393
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  381  408  394
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  382  408  395
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  383  408  396
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  384  409  397
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  384  409  397
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  385  411  398
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  386  411  399
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  387  411  399
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  387  411  400
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  387  412  401
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  389  413  402
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  389  413  402
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  391  414  402
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  391  414  403
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  392  415  403
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  393  417  404
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  393  417  405
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  393  418  405
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  395  418  406
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  395  419  406
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  396  420  407
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  396  421  408
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  396  421  409
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  397  422  409
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  399  422  410
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  401  422  410
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  402  423  411
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  402  423  412
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  402  423  413
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  403  424  414
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  404  425  414
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  405  425  414
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  407  426  414
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  407  427  415
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  408  427  415
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  409  428  416
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  410  428  417
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  411  429  417
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  411  429  418
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  412  430  419
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  412  431  419
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  412  433  420
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  413  434  420
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  413  435  421
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  414  435  421
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  414  437  422
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  414  438  423
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  414  438  425
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  414  439  426
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  415  440  426
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  415  441  426
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  417  442  426
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  417  442  427
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  418  443  428
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  419  443  429
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  419  444  429
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  420  444  431
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  420  444  433
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  421  445  433
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  421  445  434
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  423  446  434
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  423  446  435
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  424  447  436
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  425  447  437
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  425  448  437
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  426  449  438
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  426  450  439
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  427  451  439
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  427  451  440
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  429  452  440
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  430  453  440
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  430  453  441
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  431  454  441
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  432  455  443
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  432  456  443
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  432  456  445
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  432  456  447
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  433  456  447
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  433  457  448
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  434  459  448
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  435  460  449
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  435  461  449
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  437  461  450
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  437  462  450
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  438  462  451
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  439  463  452
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  439  463  453
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  440  464  453
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  441  464  453
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  442  465  454
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  443  465  454
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  443  466  455
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  444  467  456
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  444  468  457
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  445  468  457
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  447  468  459
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  448  468  459
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  449  469  459
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  449  469  460
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  450  471  461
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  450  471  461
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  450  473  463
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  450  473  463
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  451  474  464
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  452  475  465
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  453  477  465
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  453  478  465
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  453  479  465
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  454  479  465
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  455  480  466
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  456  480  467
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  456  481  468
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  457  483  468
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  457  483  468
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  458  485  469
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  459  485  470
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  459  485  471
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  461  486  471
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  461  487  471
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  461  487  472
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  462  489  473
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  462  489  474
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  462  491  474
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  463  492  474
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  463  493  475
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  464  493  475
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  465  495  477
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  465  495  477
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  466  495  477
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  466  496  479
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  466  497  480
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  467  498  480
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  468  498  481
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  468  498  483
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  469  498  485
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  469  499  485
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  469  501  486
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  469  503  486
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  469  504  486
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  471  504  486
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  471  504  487
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  472  504  489
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  472  505  489
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  472  507  490
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  472  509  490
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  473  510  490
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  473  510  491
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  474  510  493
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  475  511  494
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  475  511  494
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  476  511  495
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  477  512  496
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  477  513  496
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  479  514  496
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  480  514  497
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  480  515  498
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  481  516  498
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  483  516  498
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  484  517  498
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  485  517  499
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  485  518  499
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  486  519  501
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  486  519  501
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  486  521  502
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  486  521  503
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  487  522  504
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  489  522  504
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  489  522  505
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  490  523  505
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  491  523  506
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  492  525  507
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  492  525  507
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  492  527  508
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  492  528  509
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  493  528  510
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  494  528  511
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  495  528  511
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  497  528  511
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  498  529  511
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  499  530  512
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  499  531  513
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  500  531  513
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  501  532  514
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  502  533  515
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  503  534  515
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  503  534  515
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  504  535  516
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  505  536  516
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  507  537  517
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  507  537  517
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  508  537  517
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  509  538  517
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  510  539  518
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  510  539  519
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  510  540  521
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  510  540  523
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  511  540  523
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  512  540  525
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  513  541  525
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  513  541  526
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   3   0  F    F     0   0    0    0    0   2   0   0   0  514  543  526
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  515  543  527
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  515  544  528
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  516  545  528
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  517  546  528
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  519  546  528
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  520  546  529
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  521  546  529
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  522  546  531
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  522  547  532
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  522  547  533
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  522  549  534
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  523  549  534
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  524  551  534
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  525  552  534
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  526  553  535
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  526  554  535
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  527  555  535
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  527  555  536
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  528  556  537
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  529  557  538
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  530  557  539
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  531  557  539
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  532  558  539
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  532  559  540
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  533  560  541
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  533  561  541
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  534  561  543
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  534  561  543
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  534  563  544
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  535  563  545
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  536  564  545
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  537  564  546
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  538  565  547
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  538  565  547
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  539  566  548
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  540  567  549
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  540  567  549
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  540  569  551
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  541  569  551
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  541  569  551
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  543  570  552
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  545  570  552
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  545  570  553
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  546  570  555
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  546  571  556
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  546  571  557
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  546  573  558
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  546  575  558
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  546  575  559
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  547  576  559
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  547  576  561
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  549  576  562
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  549  576  563
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  551  577  564
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  551  577  564
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   0   0   0  552  578  565
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  552  579  567
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  552  579  567
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    F     0   0    0    0    0   2   0   0   0  553  579  568
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   0   0   0  553  581  569
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   2   1   0  554  582  569
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   0   0  F    F     0   0    0    0    0   2   2   1   0  555  583  571
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    F     0   0    0    0    0   2   2   1   0  555  583  571
+
+  WFNT   AOID  0 CSDO  0  CDC  0   CTE  0  FPM  0  FPM  0 OPEN   1   0  F    T     0   0    0    0    0   2   2   1   0  555  583  571
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   CTE  0  FPM  0  FPM  0 OPEN   1   0  F    T     0   0    0    0    0   2   2   1   0  556  584  571
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    T     0   0    0    0    0   2   3   2   2  556  584  571
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   2   0  F    T     0   0    0    0    0   2   3   2   2  557  585  571
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 OPEN   1   0  F    T     0   0    0    0    0   3   3   2   2  557  585  572
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 STOP   1   0  F    T     0   0    0    0    0   3   4   2   2  558  586  572
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  0  FPM  0  FPM  0 STOP   1   0  F    T     0   0    0    0    0   4   4   2   2  559  587  572
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   4   4   2   2  559  587  573
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   6   4   2   2  560  588  573
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   6   4   2   2  561  589  574
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   6   4   2   2  561  589  574
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   6   4   2   2  563  590  574
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   7   4   2   2  563  591  575
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   7   4   2   2  564  591  575
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 STOP   0   0  F    T     0   0    0    0    0   7   4   2   2  564  592  577
+
+   CTS   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    T     0   0    0    0    0   8   4   2   2  565  592  577
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    T     0   0    0    0    0   8   4   2   2  565  593  578
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    T     0   0    0    0    0   9   4   2   2  565  593  579
+
+   ETS    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0   9   4   2   2  566  593  579
+
+   ETS    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0   9   4   2   2  567  593  580
+
+   ETS   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0   9   4   2   2  567  593  580
+
+   BPM   CSDO  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0  11   4   2   2  567  593  580
+
+   BPM   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0  11   4   2   2  569  595  581
+
+   BPM    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0  11   4   2   2  569  596  581
+
+   BPM    CDC  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0  11   4   2   2  569  596  581
+
+   BPM    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     0   0    0    0    0  11   4   2   2  570  597  582
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     8   0    1    8    0  11   6   2   2  570  597  582
+
+   DPM    CDC  0 CSDO  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     8   0    1    8    0  11   6   2   2  570  598  583
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     8   0    1    8    0  11   6   2   2  570  599  583
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   6   2   2  570  599  583
+
+   DPM   CSDO  0  CDC  0 CSDO  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   6   2   2  571  599  584
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   6   2   2  572  600  585
+
+   DPM   CSDO  0  CDC  0  CDC  0   PNP  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   7   2   2  572  600  586
+
+   DPM    CDC  0  CDC  0  CDC  0   PNP  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   7   2   2  573  600  586
+
+   DPM    CDC  0 CSDO  0  CDC  0   PNP  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   7   2   2  574  601  587
+
+   DPM    CDC  0 CSDO  0 CSDO  0   PNP  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  11   7   2   2  574  601  587
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   PNP  0  FPM  0  FPM  0 CLOS   0   0  F    F     3   0    1    8    0  12   7   2   2  575  602  587
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   PNP  0  FPM  0  FPM  0 OPEN   0   0  F    F     3   0    1    8    0  12   7   2   2  575  602  588
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   SFT  1  FPM  0  FPM  0 OPEN   0   0  F    F     3   1    1    8    1  12   8   2   2  575  602  588
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   FPM  1  FPM  0  FPM  0 OPEN   0   0  F    F     3   1    1    8    1  13   9   2   2  576  602  588
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  1  FPM  0  FPM  0 OPEN   0   0  F    F     3   1    1    8    1  14   9   2   2  577  603  588
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  1  FPM  0  FPM  0 OPEN   1   0  F    F     3   1    1    8    1  14  10   2   2  577  603  589
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  1  FPM  0  FPM  0 OPEN   2   0  F    F     3   1    1    8    1  15  10   2   2  577  603  589
+
+  WFNT   AOID  0 AOID  0 CSDO  0   CTE  1  FPM  0  FPM  0 OPEN   2   0  F    T     3   1    1    8    1  15  12   2   2  578  603  589
+
+  WFNT   AOID  0 AOID  0 AOID  0   CTE  1  FPM  0  FPM  0 OPEN   3   0  F    T     3   1    1    8    1  15  12   2   2  578  604  589
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  1  FPM  0  FPM  0 OPEN   3   0  F    T     3   1    1    8    1  15  13   2   2  578  604  589
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  1  FPM  0  FPM  0 STOP   3   0  F    T     3   1    1    8    1  16  14   2   2  579  605  590
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  1  FPM  0  FPM  0 STOP   2   0  F    T     3   1    1    8    1  16  14   2   2  579  605  590
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  1  FPM  0  FPM  0 STOP   1   0  F    T     3   1    1    8    1  17  14   2   2  580  605  591
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  1  FPM  0  FPM  0 STOP   1   0  F    T     3   1    1    8    1  17  14   2   2  581  606  591
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  1  FPM  0  FPM  0 STOP   0   0  F    T     3   1    1    8    1  17  14   2   2  581  606  591
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 STOP   0   0  F    T     3   1    1    8    1  19  14   2   2  583  607  592
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 STOP   0   0  F    T     3   1    1    8    1  19  14   2   2  583  607  592
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  1  FPM  0  FPM  0 STOP   0   0  F    T     3   1    1    8    1  20  14   2   2  584  608  593
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  1  FPM  0  FPM  0 STOP   0   0  F    T     3   1    1    8    1  20  14   2   2  584  609  593
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    T     3   1    1    8    1  21  14   2   2  585  610  594
+
+   CTS   CSDO  0  CDC  0 CSDO  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    T     3   1    1    8    1  21  14   2   2  585  610  594
+
+   ETS   CSDO  0  CDC  0 CSDO  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F     3   1    1    8    1  22  14   2   2  586  610  594
+
+   ETS   CSDO  0  CDC  0  CDC  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F     3   1    1    8    1  22  14   2   2  586  611  595
+
+   ETS   CSDO  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F     3   1    1    8    1  22  14   2   2  587  611  596
+
+   BPM   CSDO  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F     3   1    1    8    1  24  14   2   2  587  611  596
+
+   BPM    CDC  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F     3   1    1    8    1  24  14   2   2  587  611  596
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F    11   1    2   16    1  24  16   2   2  588  612  597
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  1  FPM  0  FPM  0 CLOS   0   0  F    F     6   1    2   16    1  24  16   2   2  588  612  597
+
+   DPM    CDC  0 CSDO  0  CDC  0   PNP  1  FPM  0  FPM  0 CLOS   0   0  F    F     6   1    2   16    1  24  17   2   2  588  612  597
+
+   DPM    CDC  0 CSDO  0 CSDO  0   PNP  1  FPM  0  FPM  0 CLOS   0   0  F    F     6   1    2   16    1  24  17   2   3  589  612  597
+
+   OTS    CDC  0 CSDO  0 CSDO  0   PNP  1  FPM  0  FPM  0 OPEN   0   0  F    F     6   1    2   16    1  25  17   2   3  589  613  597
+
+   OTS    CDC  0 CSDO  0 CSDO  0   SFT  2  FPM  0  FPM  0 OPEN   0   0  F    F     6   2    2   16    2  26  18   2   4  589  613  598
+
+   OTS    CDC  0 CSDO  0 CSDO  0   FPM  2  FPM  0  FPM  0 OPEN   0   0  F    F     6   2    2   16    2  26  19   2   4  589  613  598
+
+   OTS    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  0  FPM  0 OPEN   0   0  F    F     6   2    2   16    2  26  20   3   4  589  613  598
+
+   OTS   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  0  FPM  0 OPEN   0   0  F    F     6   2    2   16    2  27  20   3   5  589  613  598
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  0  FPM  0 OPEN   0   0  F    F     6   2    2   16    2  27  20   3   5  589  613  598
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  0  CTE  0 OPEN   0   0  F    T     6   2    2   16    2  27  20   3   5  590  614  598
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  0  CTE  0 OPEN   0   0  F    T     1   2    2   16    2  27  21   5   5  590  614  598
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  2  FPM  0  CTE  0 OPEN   1   0  F    T     1   2    2   16    2  28  21   5   5  590  614  599
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  2  FPM  0  FPM  0 OPEN   1   0  F    T     1   2    2   16    2  28  21   5   6  590  614  599
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  2  FPM  0  FPM  0 STOP   1   0  F    T     1   2    2   16    2  29  21   5   6  591  614  600
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  2  FPM  0  FPM  0 STOP   2   0  F    T     1   2    2   16    2  29  21   5   6  591  614  600
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  2  PNP  0  FPM  0 STOP   2   0  F    T     1   2    2   16    2  29  21   6   7  591  614  600
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  2  PNP  0  FPM  0 STOP   2   0  F    T     1   2    2   16    2  30  21   6   7  591  615  600
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  2  PNP  0  FPM  0 STOP   1   0  F    T     1   2    2   16    2  31  21   6   7  593  615  601
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  2  PNP  0  FPM  0 STOP   0   0  F    T     1   2    2   16    2  32  21   6   7  594  616  601
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  2  SFT  1  FPM  0 STOP   0   0  F    T     1   3    2   16    3  32  22   7   9  594  616  601
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  2  FPM  1  FPM  0 STOP   0   0  F    T     1   3    2   16    3  32  22   8   9  594  616  602
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 STOP   0   0  F    T     1   3    2   16    3  33  22   8   9  595  617  602
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 STOP   0   0  F    T     1   3    2   16    3  33  22   9   9  595  618  603
+
+   CTS   CSDO  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    T     1   3    2   16    3  34  22   9   9  595  618  603
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    T     1   3    2   16    3  35  22   9   9  597  618  603
+
+   CTS    CDC  0 CSDO  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    T     1   3    2   16    3  35  22   9   9  598  619  603
+
+   CTS    CDC  0 CSDO  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    T     1   3    2   16    3  35  22   9   9  598  620  603
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    T     1   3    2   16    3  35  22   9   9  598  621  603
+
+   ETS    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  35  22   9   9  599  622  604
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  35  22   9   9  599  622  605
+
+   ETS   CSDO  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  35  22   9   9  599  623  606
+
+   ETS   CSDO  0 CSDO  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  35  22   9   9  599  623  606
+
+   ETS   CSDO  0 CSDO  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  35  22   9   9  600  623  607
+
+   BPM   CSDO  0 CSDO  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  37  22   9   9  600  623  607
+
+   BPM    CDC  0 CSDO  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  37  22   9   9  601  624  608
+
+   BPM    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     1   3    2   16    3  37  22   9   9  602  625  609
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     9   3    3   24    3  37  22  11   9  602  625  609
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     4   3    3   24    3  37  22  11   9  602  626  609
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 CLOS   0   0  F    F     4   3    3   24    3  37  22  11   9  602  626  609
+
+   OTS    CDC  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 OPEN   0   0  F    F     4   3    3   24    3  38  22  11   9  602  626  610
+
+   OTS   CSDO  0  CDC  0  CDC  0   FPM  2  FPM  1  FPM  0 OPEN   0   0  F    F     4   3    3   24    3  38  22  11   9  603  626  610
+
+   OTS   CSDO  0  CDC  0  CDC  0   FPM  2  PNP  1  FPM  0 OPEN   0   0  F    F     4   3    3   24    3  38  22  12   9  603  626  610
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  2  PNP  1  FPM  0 OPEN   0   0  F    F     4   3    3   24    3  40  22  12   9  603  626  610
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  2  SFT  2  FPM  0 OPEN   0   0  F    F     4   4    3   24    4  40  22  13   9  603  626  610
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  2  SFT  2  FPM  0 OPEN   0   0  F    F     4   4    3   24    4  40  22  13   9  604  626  611
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  2  CTE  2  FPM  0 OPEN   0   0  T    F     4   4    3   24    4  41  22  14   9  604  627  611
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  2  CTE  2  FPM  0 OPEN   1   0  T    F     4   4    3   24    4  41  22  14   9  605  627  613
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  2  FPM  2  FPM  0 OPEN   1   0  T    F     4   4    3   24    4  41  22  15   9  605  627  613
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  2  FPM  2  FPM  0 OPEN   1   0  T    F     4   4    3   24    4  41  22  16   9  605  627  613
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  2  FPM  2  FPM  0 STOP   1   0  T    F     4   4    3   24    4  42  22  18   9  605  628  614
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  2  CTE  2  FPM  0 STOP   1   0  T    T     4   4    3   24    4  42  22  18   9  605  628  614
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  2  FPM  2  FPM  0 STOP   1   0  T    T     4   4    3   24    4  43  22  19   9  605  628  615
+
+  WFNT   AOID  0 CSDO  0 AOID  0   FPM  2  FPM  2  FPM  0 STOP   2   0  T    T     4   4    3   24    4  43  22  20   9  605  628  615
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  2  FPM  2  FPM  0 STOP   1   0  T    T     4   4    3   24    4  43  22  20   9  605  628  615
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  2  FPM  2  FPM  0 STOP   0   0  T    T     4   4    3   24    4  44  22  20   9  607  628  616
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  2  FPM  2  FPM  0 STOP   0   0  T    T     4   4    3   24    4  45  22  20   9  608  629  617
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 STOP   0   0  T    T     4   4    3   24    4  45  22  20   9  608  629  617
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 STOP   0   0  T    T     4   4    3   24    4  46  22  20   9  609  630  618
+
+   CTS   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    T     4   4    3   24    4  47  22  20   9  610  630  618
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    T     4   4    3   24    4  47  22  20   9  611  630  619
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    T     4   4    3   24    4  48  22  20   9  612  630  619
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     4   4    3   24    4  48  22  20   9  612  630  620
+
+   ETS    CDC  0 CSDO  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     4   4    3   24    4  48  22  20   9  612  631  620
+
+   BPM    CDC  0 CSDO  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     4   4    3   24    4  50  22  20   9  612  631  620
+
+   BPM   CSDO  0 CSDO  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     4   4    3   24    4  50  22  20   9  613  632  620
+
+   DPM   CSDO  0 CSDO  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F    12   4    4   32    4  50  22  22   9  613  632  620
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F    12   4    4   32    4  50  22  22   9  613  633  620
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     7   4    4   32    4  50  22  22   9  614  634  621
+
+   DPM   CSDO  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     7   4    4   32    4  51  22  22   9  614  634  621
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 CLOS   0   0  T    F     7   4    4   32    4  51  22  22   9  615  634  621
+
+   OTS    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 OPEN   0   0  T    F     7   4    4   32    4  51  22  22   9  616  634  622
+
+   OTS    CDC  0  CDC  0 CSDO  0   FPM  2  FPM  2  FPM  0 OPEN   0   0  T    F     2   4    4   32    4  51  22  22   9  616  634  622
+
+   OTS    CDC  0  CDC  0 CSDO  0   FPM  2  PNP  2  FPM  0 OPEN   0   0  T    F     2   4    4   32    4  51  22  23   9  616  634  622
+
+   OTS    CDC  0  CDC  0 CSDO  0   PNP  2  PNP  2  FPM  0 OPEN   0   0  T    F     2   4    4   32    4  52  23  23   9  616  634  622
+
+   OTS    CDC  0  CDC  0 CSDO  0   PNP  2  SFT  3  FPM  0 OPEN   0   0  T    F     2   5    4   32    5  52  23  24   9  616  634  622
+
+   OTS    CDC  0  CDC  0 CSDO  0   PNP  2  FPM  3  FPM  0 OPEN   0   0  T    F     2   5    4   32    5  52  23  25   9  616  634  622
+
+   OTS    CDC  0 CSDO  0 CSDO  0   PNP  2  FPM  3  FPM  0 OPEN   0   0  T    F     2   5    4   32    5  53  23  25   9  617  635  622
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   PNP  2  FPM  3  FPM  0 OPEN   0   0  T    F     2   5    4   32    5  53  23  25   9  617  635  623
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   PNP  2  FPM  3  FPM  0 OPEN   0   0  T    F     2   5    4   32    5  53  23  25   9  617  636  623
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   SFT  3  FPM  3  FPM  0 OPEN   0   0  T    F     2   6    4   32    6  53  24  25   9  617  636  623
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   SFT  3  FPM  3  FPM  0 OPEN   1   0  T    F     2   6    4   32    6  55  24  25   9  618  636  623
+
+  WFNT   CSDO  0 AOID  0 AOID  0   SFT  3  FPM  3  FPM  0 OPEN   2   0  T    F     2   6    4   32    6  55  24  26   9  618  637  623
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  3  FPM  3  FPM  0 OPEN   2   0  T    F     2   6    4   32    6  55  25  26   9  618  637  623
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  3  FPM  3  FPM  0 STOP   2   0  T    F     2   6    4   32    6  55  25  26   9  618  638  624
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  3  FPM  3  FPM  0 STOP   2   0  T    F     2   6    4   32    6  56  25  26   9  619  638  624
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  3  FPM  3  FPM  0 STOP   1   0  T    F     2   6    4   32    6  56  26  27   9  620  638  625
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  3  CTE  3  FPM  0 STOP   1   0  T    T     2   6    4   32    6  57  26  28   9  621  639  626
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  3  CTE  3  FPM  0 STOP   1   0  T    T     2   6    4   32    6  57  26  28   9  621  639  626
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  3  CTE  3  FPM  0 STOP   0   0  T    T     2   6    4   32    6  57  26  28   9  621  639  626
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  3  FPM  3  FPM  0 STOP   0   0  T    T     2   6    4   32    6  57  28  29   9  621  639  626
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  3  FPM  3  FPM  0 STOP   0   0  T    T     2   6    4   32    6  58  28  30   9  622  640  627
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  3  FPM  3  FPM  0 STOP   0   0  T    T     2   6    4   32    6  60  28  30   9  623  640  628
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    T     2   6    4   32    6  60  28  30   9  624  640  628
+
+   CTS   CSDO  0  CDC  0 CSDO  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    T     2   6    4   32    6  61  28  30   9  625  641  628
+
+   ETS   CSDO  0  CDC  0 CSDO  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     2   6    4   32    6  61  28  30   9  625  641  629
+
+   ETS   CSDO  0 CSDO  0 CSDO  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     2   6    4   32    6  61  28  30   9  626  641  629
+
+   ETS   CSDO  0 CSDO  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     2   6    4   32    6  61  28  30   9  626  642  629
+
+   BPM   CSDO  0 CSDO  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     2   6    4   32    6  63  28  30   9  626  642  629
+
+   BPM    CDC  0 CSDO  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     2   6    4   32    6  63  28  30   9  627  642  630
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F    10   6    5   40    6  63  28  32   9  627  642  630
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     5   6    5   40    6  63  28  32   9  627  642  630
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     5   6    5   40    6  64  28  32  10  629  643  630
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     5   6    5   40    6  64  28  32  10  629  644  630
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  3  FPM  3  FPM  0 CLOS   0   0  T    F     5   6    5   40    6  64  28  32  12  631  644  630
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  3  PNP  3  FPM  0 CLOS   0   0  T    F     5   6    5   40    6  64  29  33  12  632  644  630
+
+   OTS    CDC  0  CDC  0  CDC  0   FPM  3  PNP  3  FPM  0 OPEN   0   0  T    F     5   6    5   40    6  64  29  33  12  632  644  630
+
+   OTS    CDC  0  CDC  0  CDC  0   FPM  3  PNP  3  FPM  0 OPEN   0   0  T    F     0   6    5   40    6  64  31  33  12  632  644  630
+
+   OTS    CDC  0  CDC  0  CDC  0   PNP  3  PNP  3  FPM  0 OPEN   0   0  T    F     0   6    5   40    6  64  32  33  12  632  644  630
+
+   OTS    CDC  0  CDC  0 CSDO  0   PNP  3  PNP  3  FPM  0 OPEN   0   0  T    F     0   6    5   40    6  65  32  33  12  632  644  631
+
+   OTS    CDC  0  CDC  0 CSDO  0   PNP  3  PNP  3  CTE  0 OPEN   0   0  T    T     0   6    5   40    6  66  32  33  12  633  645  631
+
+   OTS    CDC  0  CDC  0 AOID  0   PNP  3  PNP  3  CTE  0 OPEN   1   0  T    T     0   6    5   40    6  66  32  33  12  633  645  633
+
+   OTS    CDC  0  CDC  0 AOID  0   PNP  3  PNP  3  FPM  0 OPEN   1   0  T    T     0   6    5   40    6  66  32  33  13  633  645  633
+
+  WFNT    CDC  0  CDC  0 AOID  0   PNP  3  PNP  3  FPM  0 OPEN   1   0  T    T     0   6    5   40    6  66  32  33  13  633  645  633
+
+  WFNT    CDC  0 CSDO  0 AOID  0   PNP  3  PNP  3  FPM  0 OPEN   1   0  T    T     0   6    5   40    6  66  32  33  13  633  645  634
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   PNP  3  PNP  3  FPM  0 OPEN   1   0  T    T     0   6    5   40    6  66  32  33  14  633  645  634
+
+  WFNT   CSDO  0 AOID  0 AOID  0   PNP  3  PNP  3  FPM  0 OPEN   2   0  T    T     0   6    5   40    6  67  32  33  14  634  647  634
+
+  WFNT   CSDO  0  CDC  0 AOID  0   PNP  3  PNP  3  FPM  0 OPEN   1   0  T    T     0   6    5   40    6  67  32  33  14  634  649  634
+
+  WFNT   CSDO  0  CDC  0 AOID  0   PNP  3  SFT  4  FPM  0 OPEN   1   0  T    T     0   7    5   40    7  67  33  34  16  634  649  634
+
+  WFNT   CSDO  0  CDC  0 AOID  0   SFT  4  SFT  4  FPM  0 OPEN   1   0  T    T     0   8    5   40    8  67  33  34  16  634  649  634
+
+  WFNT   CSDO  0  CDC  0 AOID  0   SFT  4  FPM  4  FPM  0 OPEN   1   0  T    T     0   8    5   40    8  67  34  35  16  634  650  634
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  4  FPM  4  FPM  0 OPEN   1   0  T    T     0   8    5   40    8  67  34  35  16  634  650  634
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  4  FPM  4  FPM  0 OPEN   1   0  T    T     0   8    5   40    8  68  35  35  16  634  651  635
+
+  WFNT   CSDO  0 CSDO  0 AOID  0   FPM  4  FPM  4  FPM  0 STOP   1   0  T    T     0   8    5   40    8  68  35  36  16  635  652  635
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  68  35  36  16  635  652  635
+
+  WFNT   AOID  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   1   0  T    T     0   8    5   40    8  69  35  36  16  635  652  636
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   1   0  T    T     0   8    5   40    8  69  35  36  16  635  653  636
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   1   0  T    T     0   8    5   40    8  69  35  36  16  636  654  637
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  637  654  638
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  638  655  639
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  638  655  639
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  638  657  640
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  639  658  640
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  639  658  641
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  641  658  642
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  642  658  643
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  642  659  644
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  643  659  644
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  644  661  644
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  645  662  644
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  646  662  645
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  646  662  647
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  646  663  648
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  70  35  36  16  647  663  648
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  71  35  36  16  648  664  649
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  72  35  36  16  648  665  650
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  72  35  36  16  648  666  651
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 STOP   0   0  T    T     0   8    5   40    8  72  35  36  16  649  666  652
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    T     0   8    5   40    8  73  35  36  16  650  666  652
+
+   CTS    CDC  0 CSDO  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    T     0   8    5   40    8  73  35  36  16  650  667  652
+
+   CTS    CDC  0 CSDO  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    T     0   8    5   40    8  74  35  36  16  651  667  653
+
+   ETS    CDC  0 CSDO  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  74  35  36  16  651  668  653
+
+   BPM    CDC  0 CSDO  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  76  35  36  16  651  668  653
+
+   BPM   CSDO  0 CSDO  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  76  35  36  16  651  668  653
+
+   BPM   CSDO  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  76  35  36  16  652  669  655
+
+   BPM   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  76  35  36  16  652  670  655
+
+   BPM    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  76  35  36  16  653  670  656
+
+   BPM    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     0   8    5   40    8  76  35  36  16  654  670  657
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     8   8    6   48    8  76  37  38  16  654  670  657
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     8   8    6   48    8  76  37  38  16  654  670  659
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     3   8    6   48    8  76  37  38  16  654  670  659
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 CLOS   0   0  T    F     3   8    6   48    8  76  37  38  16  655  670  660
+
+   OTS   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  4  FPM  0 OPEN   0   0  T    F     3   8    6   48    8  77  37  38  16  655  670  660
+
+   OTS   CSDO  0  CDC  0  CDC  0   FPM  4  PNP  4  FPM  0 OPEN   0   0  T    F     3   8    6   48    8  77  37  39  16  655  670  660
+
+   OTS   CSDO  0  CDC  0 CSDO  0   FPM  4  PNP  4  FPM  0 OPEN   0   0  T    F     3   8    6   48    8  77  37  39  16  656  671  661
+
+   OTS   CSDO  0  CDC  0 AOID  0   FPM  4  PNP  4  FPM  0 OPEN   1   0  T    F     3   8    6   48    8  78  37  39  16  656  671  663
+
+   OTS   CSDO  0 CSDO  0 AOID  0   FPM  4  PNP  4  FPM  0 OPEN   1   0  T    F     3   8    6   48    8  79  37  39  16  656  671  664
+
+   OTS   AOID  0 CSDO  0 AOID  0   FPM  4  PNP  4  FPM  0 OPEN   2   0  T    F     3   8    6   48    8  79  37  39  16  657  671  664
+
+   OTS    CDC  0 CSDO  0 AOID  0   FPM  4  PNP  4  FPM  0 OPEN   1   0  T    F     3   8    6   48    8  79  37  39  16  659  672  664
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  4  PNP  4  FPM  0 OPEN   1   0  T    F     3   8    6   48    8  79  37  39  16  660  672  664
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  4  SFT  5  FPM  0 OPEN   1   0  T    F     3   9    6   48    9  79  37  40  16  660  672  664
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  4  SFT  5  FPM  0 OPEN   0   0  T    F     3   9    6   48    9  79  37  40  16  660  672  665
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  4  FPM  5  FPM  0 OPEN   0   0  T    F     3   9    6   48    9  79  37  41  16  660  672  665
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  5  FPM  0 OPEN   0   0  T    F     3   9    6   48    9  80  37  42  16  661  672  666
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  4  FPM  5  FPM  0 OPEN   1   0  T    F     3   9    6   48    9  80  37  42  16  661  673  666
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  4  FPM  5  FPM  0 STOP   1   0  T    F     3   9    6   48    9  81  37  42  16  662  674  666
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  4  FPM  5  FPM  0 STOP   1   0  T    F     3   9    6   48    9  82  37  44  16  662  674  667
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  4  FPM  5  FPM  0 STOP   1   0  T    F     3   9    6   48    9  82  37  44  16  663  674  669
+
+  WFNT   CSDO  0 AOID  0  CDC  0   FPM  4  CTE  5  FPM  0 STOP   1   0  T    T     3   9    6   48    9  82  37  44  16  663  674  670
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  4  CTE  5  FPM  0 STOP   0   0  T    T     3   9    6   48    9  83  37  44  16  663  675  670
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  4  FPM  5  FPM  0 STOP   0   0  T    T     3   9    6   48    9  83  37  45  16  663  676  670
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  4  FPM  5  FPM  0 STOP   0   0  T    T     3   9    6   48    9  83  37  46  16  663  676  670
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  5  FPM  0 STOP   0   0  T    T     3   9    6   48    9  84  37  46  16  664  676  671
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    T     3   9    6   48    9  86  37  46  16  664  676  672
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    T     3   9    6   48    9  86  37  46  16  664  676  673
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F     3   9    6   48    9  87  37  46  16  664  676  674
+
+   BPM    CDC  0  CDC  0  CDC  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F     3   9    6   48    9  89  37  46  16  664  676  674
+
+   BPM    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F     3   9    6   48    9  89  37  46  16  664  676  675
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F    11   9    7   56    9  89  37  48  16  664  676  675
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F     6   9    7   56    9  89  37  48  16  664  676  675
+
+   DPM    CDC  0 CSDO  0 CSDO  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F     6   9    7   56    9  89  38  48  17  664  677  676
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   FPM  4  FPM  5  FPM  0 CLOS   0   0  T    F     6   9    7   56    9  90  38  48  17  665  677  677
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   FPM  4  FPM  5  FPM  0 OPEN   0   0  T    F     6   9    7   56    9  90  39  49  19  665  678  677
+
+   OTS   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  5  FPM  0 OPEN   0   0  T    F     6   9    7   56    9  90  39  49  19  666  678  677
+
+   OTS   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  5  FPM  0 OPEN   0   0  T    F     1   9    7   56    9  91  40  49  19  666  678  677
+
+   OTS   CSDO  0 CSDO  0  CDC  0   FPM  4  FPM  5  CTE  0 OPEN   0   0  T    T     1   9    7   56    9  91  40  49  19  666  678  678
+
+   OTS   CSDO  0 CSDO  0  CDC  0   PNP  4  FPM  5  CTE  0 OPEN   0   0  T    T     1   9    7   56    9  91  41  49  19  666  678  678
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   PNP  4  FPM  5  CTE  0 OPEN   0   0  T    T     1   9    7   56    9  92  41  49  19  667  678  678
+
+  WFNT   AOID  0 CSDO  0  CDC  0   PNP  4  FPM  5  CTE  0 OPEN   1   0  T    T     1   9    7   56    9  92  41  49  19  667  679  679
+
+  WFNT   AOID  0 CSDO  0  CDC  0   PNP  4  PNP  5  CTE  0 OPEN   1   0  T    T     1   9    7   56    9  92  41  49  20  667  679  679
+
+  WFNT   AOID  0 CSDO  0  CDC  0   PNP  4  PNP  5  FPM  0 OPEN   1   0  T    T     1   9    7   56    9  92  41  49  20  667  679  679
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   PNP  4  PNP  5  FPM  0 OPEN   1   0  T    T     1   9    7   56    9  93  41  49  20  667  679  679
+
+  WFNT   AOID  0 AOID  0 CSDO  0   PNP  4  PNP  5  FPM  0 OPEN   2   0  T    T     1   9    7   56    9  94  41  49  20  668  679  679
+
+  WFNT   AOID  0 AOID  0 CSDO  0   SFT  5  PNP  5  FPM  0 OPEN   2   0  T    T     1  10    7   56   10  94  42  49  20  668  679  679
+
+  WFNT   AOID  0 AOID  0 CSDO  0   SFT  5  PNP  5  FPM  0 STOP   2   0  T    T     1  10    7   56   10  94  42  49  21  668  680  680
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  5  PNP  5  FPM  0 STOP   2   0  T    T     1  10    7   56   10  94  43  49  22  668  680  680
+
+  WFNT   AOID  0 AOID  0 AOID  0   FPM  5  PNP  5  FPM  0 STOP   3   0  T    T     1  10    7   56   10  94  44  49  22  668  680  681
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  5  PNP  5  FPM  0 STOP   2   0  T    T     1  10    7   56   10  95  44  49  22  669  680  681
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  5  SFT  6  FPM  0 STOP   2   0  T    T     1  11    7   56   11  96  46  50  22  670  681  682
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  5  FPM  6  FPM  0 STOP   2   0  T    T     1  11    7   56   11  96  46  51  22  670  681  682
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  5  FPM  6  FPM  0 STOP   1   0  T    T     1  11    7   56   11  96  46  52  23  670  681  682
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  5  FPM  6  FPM  0 STOP   1   0  T    T     1  11    7   56   11  97  46  52  23  671  681  682
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 STOP   0   0  T    T     1  11    7   56   11  98  46  52  23  672  683  683
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  5  FPM  6  FPM  0 STOP   0   0  T    T     1  11    7   56   11  98  46  52  23  673  683  684
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  5  FPM  6  FPM  0 STOP   0   0  T    T     1  11    7   56   11  98  46  52  23  673  683  684
+
+   CTS    CDC  0 CSDO  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    T     1  11    7   56   11  99  46  52  23  674  685  684
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    T     1  11    7   56   11  99  46  52  23  674  685  684
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     1  11    7   56   11  100  46  52  23  674  686  684
+
+   ETS   CSDO  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     1  11    7   56   11  100  46  52  23  675  686  685
+
+   BPM   CSDO  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     1  11    7   56   11  102  46  52  23  675  686  685
+
+   BPM   CSDO  0  CDC  0 CSDO  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     1  11    7   56   11  102  46  52  23  675  686  685
+
+   BPM    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     1  11    7   56   11  102  46  52  23  677  686  686
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     9  11    8   64   11  102  46  54  23  677  686  686
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     9  11    8   64   11  102  46  54  23  678  686  687
+
+   DPM    CDC  0  CDC  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     4  11    8   64   11  102  46  54  23  678  686  687
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  5  FPM  6  FPM  0 CLOS   0   0  T    F     4  11    8   64   11  102  46  54  23  678  687  688
+
+   DPM    CDC  0 CSDO  0  CDC  0   FPM  5  PNP  6  FPM  0 CLOS   0   0  T    F     4  11    8   64   11  102  46  55  23  678  687  688
+
+   OTS    CDC  0 CSDO  0  CDC  0   FPM  5  PNP  6  FPM  0 OPEN   0   0  T    F     4  11    8   64   11  103  46  55  23  678  687  688
+
+   OTS    CDC  0 CSDO  0  CDC  0   FPM  5  SFT  7  FPM  0 OPEN   0   0  T    F     4  12    8   64   12  104  46  56  23  678  688  688
+
+   OTS    CDC  0 CSDO  0  CDC  0   FPM  5  FPM  7  FPM  0 OPEN   0   0  T    F     4  12    8   64   12  104  46  57  23  678  688  688
+
+   OTS    CDC  0 AOID  0  CDC  0   FPM  5  FPM  7  FPM  0 OPEN   1   0  T    F     4  12    8   64   12  104  46  57  23  678  689  688
+
+   OTS    CDC  0 AOID  0 CSDO  0   FPM  5  FPM  7  FPM  0 OPEN   1   0  T    F     4  12    8   64   12  105  46  58  23  679  689  689
+
+   OTS   CSDO  0 AOID  0 CSDO  0   FPM  5  FPM  7  FPM  0 OPEN   1   0  T    F     4  12    8   64   12  105  46  58  23  679  690  689
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  5  FPM  7  FPM  0 OPEN   1   0  T    F     4  12    8   64   12  105  46  58  23  679  690  689
+
+  WFNT   CSDO  0 AOID  0 CSDO  0   FPM  5  FPM  7  FPM  0 STOP   1   0  T    F     4  12    8   64   12  107  46  60  23  681  691  691
+
+  WFNT   CSDO  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 STOP   0   0  T    F     4  12    8   64   12  107  46  60  23  681  691  691
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 STOP   1   0  T    F     4  12    8   64   12  108  46  60  23  681  691  691
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  5  CTE  7  FPM  0 STOP   1   0  T    T     4  12    8   64   12  108  46  60  23  681  692  691
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  5  CTE  7  FPM  0 STOP   2   0  T    T     4  12    8   64   12  108  46  60  23  682  692  691
+
+  WFNT   AOID  0  CDC  0 AOID  0   FPM  5  FPM  7  FPM  0 STOP   2   0  T    T     4  12    8   64   12  108  46  61  23  682  692  691
+
+  WFNT    CDC  0  CDC  0 AOID  0   FPM  5  FPM  7  FPM  0 STOP   1   0  T    T     4  12    8   64   12  109  46  61  23  683  692  691
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  5  FPM  7  FPM  0 STOP   1   0  T    T     4  12    8   64   12  109  46  62  23  684  693  692
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  5  FPM  7  FPM  0 STOP   0   0  T    T     4  12    8   64   12  111  46  62  23  685  694  693
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  5  FPM  7  FPM  0 STOP   0   0  T    T     4  12    8   64   12  111  46  62  23  685  694  694
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  5  FPM  7  FPM  0 STOP   0   0  T    T     4  12    8   64   12  111  46  62  23  685  695  694
+
+   CTS   CSDO  0  CDC  0  CDC  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    T     4  12    8   64   12  112  46  62  23  686  696  694
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    T     4  12    8   64   12  112  46  62  23  687  696  694
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    F     4  12    8   64   12  113  46  62  23  688  696  694
+
+   ETS    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    F     4  12    8   64   12  113  46  62  23  688  696  695
+
+   BPM    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    F     4  12    8   64   12  115  46  62  23  688  696  695
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    F    12  12    9   72   12  115  46  64  23  688  696  695
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    F     7  12    9   72   12  115  46  64  23  688  696  695
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  5  FPM  7  FPM  0 CLOS   0   0  T    F     2  12    9   72   12  115  46  64  23  688  696  695
+
+   DPM    CDC  0  CDC  0 CSDO  0   FPM  5  PNP  7  FPM  0 CLOS   0   0  T    F     2  12    9   72   12  115  47  65  23  688  696  695
+
+   DPM    CDC  0  CDC  0 CSDO  0   PNP  5  PNP  7  FPM  0 CLOS   0   0  T    F     2  12    9   72   12  115  47  65  23  688  696  695
+
+   DPM    CDC  0 CSDO  0 CSDO  0   PNP  5  PNP  7  FPM  0 CLOS   0   0  T    F     2  12    9   72   12  115  47  65  23  689  697  696
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   PNP  5  PNP  7  FPM  0 CLOS   0   0  T    F     2  12    9   72   12  116  47  65  23  689  697  697
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   PNP  5  SFT  8  FPM  0 CLOS   0   0  T    F     2  13    9   72   13  116  47  66  23  689  697  697
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   SFT  6  SFT  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  116  48  66  23  689  697  697
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   SFT  6  FPM  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  116  48  67  23  689  697  697
+
+   DPM   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  116  49  67  23  689  697  697
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     2  14    9   72   14  116  49  67  23  689  697  697
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     2  14    9   72   14  118  50  68  23  690  698  697
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     2  14    9   72   14  118  52  68  23  690  698  697
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   CTE  6  FPM  8  FPM  0 OPEN   0   0  T    T     2  14    9   72   14  119  52  68  23  690  698  698
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    T     2  14    9   72   14  120  53  70  23  690  698  698
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    T     2  14    9   72   14  120  54  70  23  691  698  699
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   1   0  T    T     2  14    9   72   14  120  54  70  23  691  699  699
+
+  WFNT   AOID  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 STOP   1   0  T    T     2  14    9   72   14  120  54  70  23  691  699  700
+
+  WFNT   AOID  0 AOID  0 CSDO  0   FPM  6  FPM  8  FPM  0 STOP   2   0  T    T     2  14    9   72   14  121  54  70  23  693  699  700
+
+  WFNT   AOID  0 AOID  0  CDC  0   FPM  6  FPM  8  FPM  0 STOP   2   0  T    T     2  14    9   72   14  121  54  70  23  693  699  701
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  6  FPM  8  FPM  0 STOP   1   0  T    T     2  14    9   72   14  121  54  70  23  693  700  702
+
+  WFNT    CDC  0 AOID  0 CSDO  0   FPM  6  FPM  8  FPM  0 STOP   1   0  T    T     2  14    9   72   14  122  54  70  23  693  700  703
+
+  WFNT    CDC  0 AOID  0  CDC  0   FPM  6  FPM  8  FPM  0 STOP   1   0  T    T     2  14    9   72   14  122  54  70  23  694  701  705
+
+  WFNT    CDC  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 STOP   0   0  T    T     2  14    9   72   14  123  54  70  23  694  701  705
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 STOP   0   0  T    T     2  14    9   72   14  124  54  70  23  695  702  706
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  6  FPM  8  FPM  0 STOP   0   0  T    T     2  14    9   72   14  124  54  70  23  695  703  707
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 STOP   0   0  T    T     2  14    9   72   14  124  54  70  23  696  703  707
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 STOP   0   0  T    T     2  14    9   72   14  125  54  70  23  697  705  709
+
+  WFNT    CDC  0  CDC  0 CSDO  0   FPM  6  FPM  8  FPM  0 STOP   0   0  T    T     2  14    9   72   14  125  54  70  23  698  705  709
+
+   CTS    CDC  0  CDC  0 CSDO  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    T     2  14    9   72   14  125  54  70  23  698  706  709
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    T     2  14    9   72   14  125  54  70  23  698  706  709
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  126  54  70  23  698  706  710
+
+   BPM    CDC  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  128  54  70  23  698  706  710
+
+   BPM    CDC  0 CSDO  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  128  54  70  23  698  707  710
+
+   BPM   CSDO  0 CSDO  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     2  14    9   72   14  128  54  70  23  699  707  710
+
+   DPM   CSDO  0 CSDO  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F    10  14   10   80   14  128  56  70  23  699  707  710
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F    10  14   10   80   14  128  56  70  23  700  709  710
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     5  14   10   80   14  128  56  70  23  700  709  710
+
+   DPM   CSDO  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 CLOS   0   0  T    F     0  14   10   80   14  128  56  70  23  700  710  711
+
+   OTS   CSDO  0  CDC  0  CDC  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  129  56  70  23  700  710  711
+
+   OTS   CSDO  0  CDC  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  130  57  70  24  701  710  711
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  131  57  70  24  701  711  712
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   FPM  6  FPM  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  131  57  70  24  701  711  713
+
+  WFNT   CSDO  0 CSDO  0 CSDO  0   PNP  6  FPM  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  131  57  70  24  701  711  713
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   PNP  6  FPM  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  131  57  70  24  701  712  713
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   PNP  6  PNP  8  FPM  0 OPEN   0   0  T    F     0  14   10   80   14  131  57  71  24  701  712  713
+
+  WFNT    CDC  0 CSDO  0 CSDO  0   SFT  7  PNP  8  FPM  0 OPEN   0   0  T    F     0  15   10   80   15  132  58  71  24  702  712  713
+
+  WFNT    CDC  0 CSDO  0 AOID  0   SFT  7  PNP  8  FPM  0 OPEN   1   0  T    F     0  15   10   80   15  133  58  71  24  702  712  713
+
+  WFNT    CDC  0 CSDO  0 AOID  0   FPM  7  PNP  8  FPM  0 OPEN   1   0  T    F     0  15   10   80   15  133  59  71  24  702  712  713
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  7  PNP  8  FPM  0 OPEN   2   0  T    F     0  15   10   80   15  133  59  71  24  702  713  713
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  7  PNP  8  FPM  0 STOP   2   0  T    F     0  15   10   80   15  133  60  71  24  703  713  713
+
+  WFNT    CDC  0 AOID  0 AOID  0   FPM  7  SFT  9  FPM  0 STOP   2   0  T    F     0  16   10   80   16  133  60  72  24  703  713  713
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  7  SFT  9  FPM  0 STOP   2   0  T    F     0  16   10   80   16  133  60  72  24  703  714  714
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  7  CTE  9  FPM  0 STOP   2   0  T    F     0  16   10   80   16  134  60  73  24  703  715  715
+
+  WFNT   CSDO  0 AOID  0 AOID  0   FPM  7  FPM  9  FPM  0 STOP   2   0  T    F     0  16   10   80   16  134  60  74  24  704  715  715
+
+  WFNT   CSDO  0  CDC  0 AOID  0   FPM  7  FPM  9  FPM  0 STOP   1   0  T    F     0  16   10   80   16  134  60  74  24  704  715  715
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 STOP   0   0  T    F     0  16   10   80   16  135  60  75  24  704  715  715
+
+  WFNT   CSDO  0 CSDO  0  CDC  0   FPM  7  FPM  9  FPM  0 STOP   0   0  T    F     0  16   10   80   16  136  60  75  24  704  717  716
+
+  WFNT    CDC  0 CSDO  0  CDC  0   FPM  7  FPM  9  FPM  0 STOP   0   0  T    F     0  16   10   80   16  136  60  75  24  705  717  716
+
+   CTS    CDC  0 CSDO  0  CDC  0   FPM  7  FPM  9  FPM  0 CLOS   0   0  T    F     0  16   10   80   16  138  60  75  24  706  718  716
+
+   CTS    CDC  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 CLOS   0   0  T    F     0  16   10   80   16  138  60  75  24  706  719  716
+
+   ETS    CDC  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 CLOS   0   0  F    F     0  16   10   80   16  139  60  75  24  706  719  716
+
+   ETS    CDC  0  CDC  0 CSDO  0   FPM  7  FPM  9  FPM  0 CLOS   0   0  F    F     0  16   10   80   16  139  60  75  24  706  720  717
+
+  CBOP    CDC  0  CDC  0 CSDO  0   FPM  7  FPM  9  FPM  0 CLOS   0   0  F    F     0   0   10   80   16  141  60  75  24  706  720  717
+
+  CBOP    CDC  0  CDC  0 CSDO  0   FPM  7  FPM  9  FPM  0 CLOS   0  16  F    F     0   0   10   80   16  141  60  75  24  707  721  718
+
+  CBOP    CDC  0 CSDO  0 CSDO  0   FPM  7  FPM  9  FPM  0 CLOS   0  16  F    F     0   0   10   80   16  141  60  75  24  707  721  719
+
+  CBOP   CSDO  0 CSDO  0 CSDO  0   FPM  7  FPM  9  FPM  0 CLOS   0  16  F    F     0   0   10   80   16  142  60  75  24  707  721  719
+
+   OTS   CSDO  0 CSDO  0 CSDO  0   FPM  7  FPM  9  FPM  0 OPEN   0  16  F    F     0   0   10   80   16  142  60  75  24  708  722  719
+
+   OTS   CSDO  0 CSDO  0  CDC  0   FPM  7  FPM  9  FPM  0 OPEN   0  16  F    F     0   0   10   80   16  142  60  75  24  708  723  719
+
+   OTS   CSDO  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 OPEN   0  16  F    F     0   0   10   80   16  143  60  75  24  708  723  719
+
+  WFNT   CSDO  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 OPEN   0  16  F    F     0   0   10   80   16  144  60  75  24  708  724  720
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 OPEN   1  16  F    F     0   0   10   80   16  145  60  75  24  709  724  720
+
+  WFNT   AOID  0  CDC  0  CDC  0   FPM  7  FPM  9  FPM  0 OPEN   1  15  F    F     0   0   10   80   16  145  60  75  24  710  724  720
+
+  WFNT   AOID  0  CDC  0 CSDO  0   FPM  7  FPM  9  FPM  0 OPEN   1  15  F    F     0   0   10   80   16  145  60  75  24  710  724  721
+
+  WFNT    BSG  1  CDC  0 CSDO  0   FPM  7  FPM  9  FPM  0 OPEN   1  15  F    F     0   0   10   80   16  145  60  75  24  711  725  721
+
+  WFNT    BSG  1 CSDO  0 CSDO  0   FPM  7  FPM  9  FPM  0 OPEN   1  15  F    F     0   0   10   80   16  145  60  75  24  711  725  722
+
+  WFNT    BSG  1 CSDO  0 AOID  0   FPM  7  FPM  9  FPM  0 OPEN   2  15  F    F     0   0   10   80   16  145  60  75  24  711  725  723
+
+    AC    BSG  1 CSDO  0 AOID  0   FPM  7  FPM  9  FPM  0 OPEN   2  15  F    F     0   0   10   80   16  146  60  75  24  711  726  723
+
+    AC    BSG  1 CSDO  0 AOID  0   FPM  7  FPM  9  FPM  0 OPEN   2  14  F    F     0   0   10   80   16  146  60  75  24  711  726  724
+
+    AC    BSG  1 AOID  0 AOID  0   FPM  7  FPM  9  FPM  0 OPEN   3  14  F    F     0   0   10   80   16  146  60  75  24  711  727  724
+
+    AC    BSG  1 AOID  0  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  14  F    F     0   0   10   80   16  146  60  75  24  711  727  725
+
+    AC    BSG  1 AOID  0  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  13  F    F     0   0   10   80   16  146  60  75  24  711  728  725
+
+  WFNT    BSG  1 AOID  0  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  13  F    F     0   0   10   80   16  147  60  75  24  711  728  725
+
+  WFNT    BSG  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  13  F    F     0   0   10   80   16  147  60  75  24  711  729  725
+
+  WFNT    CDC  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   2  13  F    F     0   0   10   80   16  148  60  75  24  712  729  725
+
+    AC    CDC  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   2  13  F    F     0   0   10   80   16  149  60  75  24  713  729  725
+
+    AC   CSDO  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   2  13  F    F     0   0   10   80   16  149  60  75  24  714  729  725
+
+  WFNT   CSDO  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   2  13  F    F     0   0   10   80   16  150  60  75  24  715  729  725
+
+  WFNT   AOID  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  13  F    F     0   0   10   80   16  150  60  75  24  716  729  725
+
+  WFNT   AOID  1  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  12  F    F     0   0   10   80   16  151  60  75  24  717  729  725
+
+  WFNT    BSG  2  BSG  1  BSG  1   FPM  7  FPM  9  FPM  0 OPEN   3  12  F    F     0   0   10   80   16  151  60  75  24  718  729  725
+
+  WFNT    BSG  2  BSG  1  CDC  1   FPM  7  FPM  9  FPM  0 OPEN   2  12  F    F     0   0   10   80   16  151  60  75  24  718  729  726
+
+    AC    BSG  2  BSG  1  CDC  1   FPM  7  FPM  9  FPM  0 OPEN   2  12  F    F     0   0   10   80   16  152  60  75  24  718  729  727
+
+    AC    BSG  2  BSG  1 CSDO  1   FPM  7  FPM  9  FPM  0 OPEN   2  12  F    F     0   0   10   80   16  152  60  75  24  718  729  728
+
+    AC    BSG  2  BSG  1 AOID  1   FPM  7  FPM  9  FPM  0 OPEN   3  12  F    F     0   0   10   80   16  152  60  75  24  718  729  730
+
+    AC    BSG  2  BSG  1 AOID  1   FPM  7  FPM  9  FPM  0 OPEN   3  10  F    F     0   0   10   80   16  152  60  75  24  718  729  731
+
+  WFNT    BSG  2  BSG  1 AOID  1   FPM  7  FPM  9  FPM  0 OPEN   3  10  F    F     0   0   10   80   16  153  60  75  24  718  729  731
+
+  WFNT    BSG  2  BSG  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3  10  F    F     0   0   10   80   16  154  60  75  24  718  729  732
+
+  WFNT    BSG  2  CDC  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   2  10  F    F     0   0   10   80   16  155  60  75  24  718  730  732
+
+    AC    BSG  2  CDC  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   2  10  F    F     0   0   10   80   16  155  60  75  24  718  731  732
+
+    AC    BSG  2 CSDO  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   2  10  F    F     0   0   10   80   16  155  60  75  24  718  732  732
+
+    AC    BSG  2 AOID  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3  10  F    F     0   0   10   80   16  155  60  75  24  718  734  732
+
+    AC    BSG  2 AOID  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   8  F    F     0   0   10   80   16  155  60  75  24  718  735  732
+
+  WFNT    BSG  2 AOID  1  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   8  F    F     0   0   10   80   16  156  60  75  24  718  735  732
+
+  WFNT    BSG  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   8  F    F     0   0   10   80   16  156  60  75  24  718  736  732
+
+    AC    BSG  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   8  F    F     0   0   10   80   16  158  60  75  24  718  736  732
+
+    AC    CDC  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   2   8  F    F     0   0   10   80   16  158  60  75  24  719  736  732
+
+    AC   CSDO  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   2   8  F    F     0   0   10   80   16  158  60  75  24  721  736  732
+
+    AC   AOID  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   8  F    F     0   0   10   80   16  158  60  75  24  723  736  732
+
+  WFNT   AOID  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   8  F    F     0   0   10   80   16  159  60  75  24  723  736  732
+
+  WFNT   AOID  2  BSG  3  BSG  3   FPM  7  FPM  9  FPM  0 OPEN   3   6  F    F     0   0   10   80   16  159  60  75  24  724  736  732
+
+  WFNT   AOID  2  BSG  3  CDC  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  160  60  75  24  724  736  733
+
+    AC   AOID  2  BSG  3  CDC  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  161  60  75  24  725  736  734
+
+    AC    BSG  4  BSG  3  CDC  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  161  60  75  24  725  736  734
+
+    AC    BSG  4  BSG  3 CSDO  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  161  60  75  24  725  736  735
+
+  WFNT    BSG  4  BSG  3 CSDO  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  162  60  75  24  725  736  736
+
+  WFNT    BSG  4  BSG  3 AOID  3   FPM  7  FPM  9  FPM  0 OPEN   3   6  F    F     0   0   10   80   16  162  60  75  24  725  736  737
+
+  WFNT    BSG  4  CDC  3 AOID  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  163  60  75  24  725  737  737
+
+    AC    BSG  4  CDC  3 AOID  3   FPM  7  FPM  9  FPM  0 OPEN   2   6  F    F     0   0   10   80   16  164  60  75  24  725  737  738
+
+    AC    BSG  4  CDC  3 AOID  3   FPM  7  FPM  9  FPM  0 OPEN   2   5  F    F     0   0   10   80   16  164  60  75  24  725  738  738
+
+    AC    BSG  4  CDC  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   5  F    F     0   0   10   80   16  164  60  75  24  725  738  739
+
+  WFNT    BSG  4  CDC  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   5  F    F     0   0   10   80   16  165  60  75  24  725  738  739
+
+  WFNT    BSG  4 CSDO  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   5  F    F     0   0   10   80   16  165  60  75  24  725  739  739
+
+  WFNT    BSG  4 AOID  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   3   5  F    F     0   0   10   80   16  166  60  75  24  725  741  739
+
+  WFNT    BSG  4 AOID  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   3   4  F    F     0   0   10   80   16  166  60  75  24  725  742  739
+
+  WFNT    CDC  4 AOID  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   4  F    F     0   0   10   80   16  166  60  75  24  726  742  739
+
+    AC    CDC  4 AOID  3  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   4  F    F     0   0   10   80   16  167  60  75  24  727  743  739
+
+    AC    CDC  4  BSG  4  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   4  F    F     0   0   10   80   16  167  60  75  24  727  743  739
+
+    AC   CSDO  4  BSG  4  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   4  F    F     0   0   10   80   16  168  60  75  24  728  743  739
+
+  WFNT   CSDO  4  BSG  4  BSG  4   FPM  7  FPM  9  FPM  0 OPEN   2   4  F    F     0   0   10   80   16  168  60  75  24  728  743  739
+
+  WFNT   CSDO  4  BSG  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   1   4  F    F     0   0   10   80   16  169  60  75  24  730  743  740
+
+  WFNT   AOID  4  BSG  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   2   4  F    F     0   0   10   80   16  169  60  75  24  730  743  741
+
+  WFNT   AOID  4  BSG  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  169  60  75  24  731  743  741
+
+  WFNT    BSG  6  BSG  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  169  60  75  24  732  743  741
+
+    AC    BSG  6  BSG  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  170  60  75  24  732  743  741
+
+  WFNT    BSG  6  BSG  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  171  60  75  24  732  743  742
+
+  WFNT    BSG  6  BSG  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  171  60  75  24  732  743  742
+
+    AC    BSG  6  BSG  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  173  60  75  24  732  744  743
+
+    AC    BSG  6  CDC  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  173  60  75  24  732  744  744
+
+    AC    BSG  6  CDC  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  173  60  75  24  732  744  744
+
+    AC    BSG  6  CDC  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  173  60  75  24  732  745  746
+
+    AC    BSG  6 CSDO  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  173  60  75  24  732  746  747
+
+  WFNT    BSG  6 CSDO  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  174  60  75  24  732  746  747
+
+  WFNT    BSG  6 CSDO  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  732  747  748
+
+  WFNT    BSG  6 AOID  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  175  60  75  24  732  748  748
+
+  WFNT    CDC  6 AOID  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  733  749  749
+
+  WFNT    CDC  6  CDC  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   0   2  F    F     0   0   10   80   16  175  60  75  24  734  750  749
+
+  WFNT   CSDO  6  CDC  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   0   2  F    F     0   0   10   80   16  175  60  75  24  735  751  750
+
+  WFNT   CSDO  6  CDC  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  735  751  750
+
+  WFNT   CSDO  6 CSDO  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  736  752  751
+
+  WFNT   AOID  6 CSDO  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  175  60  75  24  737  752  751
+
+  WFNT   AOID  6 CSDO  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  738  753  752
+
+  WFNT   AOID  6 AOID  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   2   2  F    F     0   0   10   80   16  175  60  75  24  738  754  752
+
+  WFNT    CDC  6 AOID  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  739  755  753
+
+  WFNT    CDC  6  CDC  4  CDC  4   FPM  7  FPM  9  FPM  0 OPEN   0   2  F    F     0   0   10   80   16  175  60  75  24  739  756  753
+
+  WFNT    CDC  6  CDC  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   0   2  F    F     0   0   10   80   16  175  60  75  24  740  757  754
+
+  WFNT   CSDO  6  CDC  4 CSDO  4   FPM  7  FPM  9  FPM  0 OPEN   0   2  F    F     0   0   10   80   16  175  60  75  24  741  757  755
+
+  WFNT   CSDO  6  CDC  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  741  757  756
+
+  WFNT   CSDO  6 CSDO  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   1   2  F    F     0   0   10   80   16  175  60  75  24  742  758  757
+
+  WFNT   CSDO  6 CSDO  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   1   0  F    F     0   0   10   80   16  175  60  75  24  743  758  757
+
+  WFNT   AOID  6 CSDO  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   2   0  F    F     0   0   10   80   16  175  60  75  24  743  759  757
+
+  WFNT   AOID  6 AOID  4 AOID  4   FPM  7  FPM  9  FPM  0 OPEN   3   0  F    F     0   0   10   80   16  175  60  75  24  743  760  757
+
+  WFNT   AOID  6 AOID  4  BSG  6   FPM  7  FPM  9  FPM  0 OPEN   3   0  F    F     0   0   10   80   16  175  60  75  24  744  760  758
+
+  WFNT    CDC  6 AOID  4  BSG  6   FPM  7  FPM  9  FPM  0 OPEN   2   0  F    F     0   0   10   80   16  175  60  75  24  745  761  758
+
+  WFNT    CDC  6  CDC  4  BSG  6   FPM  7  FPM  9  FPM  0 OPEN   1   0  F    F     0   0   10   80   16  175  60  75  24  746  762  758
+
+    AC    CDC  6  CDC  4  BSG  6   FPM  7  FPM  9  FPM  0 OPEN   1   0  F    F     0   0   10   80   16  176  60  75  24  746  763  758
+
+  WFNT    CDC  6  CDC  4  BSG  6   FPM  7  FPM  9  FPM  0 OPEN   1   0  F    F     0   0   10   80   16  177  60  75  24  746  763  758
+
+  WFNT    CDC  6  CDC  4  CDC  6   FPM  7  FPM  9  FPM  0 OPEN   0   0  F    F     0   0   10   80   16  178  60  75  24  746  763  759
+
+   CTS    CDC  6  CDC  4  CDC  6   FPM  7  FPM  9  FPM  0 CLOS   0   0  F    F     0   0   10   80   16  180  60  75  24  746  763  760
+
+   OTS    CDC  6  CDC  4  CDC  6   FPM  7  FPM  9  FPM  0 OPEN   0   0  F    F     0   0   10   80   16  182  60  75  24  746  763  760
+

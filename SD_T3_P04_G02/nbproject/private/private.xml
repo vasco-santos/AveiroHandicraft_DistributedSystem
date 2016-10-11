@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/clientSide/Entities/Craftsman.java</file>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/serverSide/Workshop/Workshop.java</file>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/serverSide/Shop/RemoteShop.java</file>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/serverSide/Workshop/RemoteWorkshop.java</file>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/serverSide/Shop/Shop.java</file>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/clientSide/Entities/CraftsmanToRemote.java</file>
+            <file>file:/home/vsantos/Desktop/SD/sd-project1/SD_T3_P04_G02/src/comInf/VectorialClock.java</file>
+        </group>
+    </open-files>
+</project-private>
